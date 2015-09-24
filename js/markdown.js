@@ -3,7 +3,8 @@ let hljs = require('highlight.js');
 let md = require('markdown-it')({
   replaceLink: function(link, env){
     return link.replace(".md", ".html").replace(".markdown", "")
-  }
+  },
+  html: true
 });
 md.use(require('markdown-it-replace-link'));
 let string = require('string');
@@ -40,5 +41,9 @@ md.use(require('markdown-it-anchor'), {
 });
 md.use(require("markdown-it-table-of-contents"));
 md.use(require('markdown-it-highlightjs'));
+
+md.renderer.rules.table_open = function () {
+  return '<table class="table table-striped">\n';
+};
 
 module.exports = md;
