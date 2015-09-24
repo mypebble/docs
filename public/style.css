@@ -1,0 +1,36 @@
+.logo{
+  width: 255px;
+}
+.header{
+  padding: 15px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.emoji {
+  height: 1.2em;
+}
+.page img{
+  max-width: 100%;
+}
+.page h1, .page h2, .page h3, .page h4, .page h5{
+  position: relative;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.page .header-anchor{
+  position: absolute;
+  left: 0px;
+  color: #ccc;
+  visibility: hidden;
+}
+.page h1:hover .header-anchor,
+.page h2:hover .header-anchor,
+.page h3:hover .header-anchor,
+.page h4:hover .header-anchor,
+.page h5:hover .header-anchor{
+  visibility: visible;
+}
+.hljs{
+  margin: -8px;
+  padding: 15px;
+}

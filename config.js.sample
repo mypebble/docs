@@ -1,0 +1,5 @@
+module.exports = {
+  clientID: "fewhteriuogtheuroigh.apps.googleusercontent.com",
+  clientSecret: "gergrgjnerkgtbitrghiurhngui",
+  callbackURL: "http://localhost:8080/login/callback"
+}

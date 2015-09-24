@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+    <title>Pebble Documentation</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/solarized_dark.css">
+</head>
+<body>
+
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="header">
+        <a href="/docs">
+          <img src="/public/logo.svg" class="logo" />
+        </a>
+        <div class="pull-right">Internal documentation</div>
+      </div>
+      <div class="body-content">
+        {% block content %} {% endblock %}
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+</html>

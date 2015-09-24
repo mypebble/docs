@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "glob": "^5.0.14",
+    "grunt": "^0.4.5",
+    "grunt-execute": "^0.2.2",
+    "highlight.js": "^8.8.0",
+    "markdown-it": "^4.4.0",
+    "markdown-it-anchor": "^2.3.0",
+    "markdown-it-container": "^1.0.0",
+    "markdown-it-emoji": "^1.1.0",
+    "markdown-it-highlightjs": "^2.0.0",
+    "markdown-it-replace-link": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.1.2",
+    "passport": "^0.3.0",
+    "passport-google-oauth": "^0.2.0",
+    "swig": "^1.4.2"
+  },
+  "main": "index.js"
+}
