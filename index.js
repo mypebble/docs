@@ -53,7 +53,7 @@ passport.use(new GoogleStrategy({
     if(profile._json.domain == "talktopebble.co.uk"){
       return done(null, profile._json);
     } else{
-      return done(null, false, { message: "You are not a member of Pebble" });
+      return done("You are not a member of Pebble", false);
     }
   }
 ));
