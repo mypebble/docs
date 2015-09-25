@@ -2,6 +2,7 @@ var config = require('./config');
 var express = require("express");
 var swig = require('swig');
 var passport = require('passport');
+var serveIndex = require('serve-index');
 
 var app = express();
 
@@ -36,6 +37,9 @@ var authCheck = function(req, res, next){
 };
 app.use('/docs', authCheck, express.static(__dirname + '/html'));
 app.use('/docs', authCheck, express.static(__dirname + '/pages'));
+app.use('/docs', authCheck, serveIndex(__dirname + '/html', {
+  'icons': true
+}));
 
 // Homepage
 app.get("/", function(req, res){

@@ -41,6 +41,7 @@ md.use(require('markdown-it-anchor'), {
 });
 md.use(require("markdown-it-table-of-contents"));
 md.use(require('markdown-it-highlightjs'));
+md.use(require('mdfigcaption'));
 
 md.renderer.rules.table_open = function () {
   return '<table class="table table-striped">\n';

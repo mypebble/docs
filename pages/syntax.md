@@ -13,6 +13,8 @@
 
 ![Image Caption](http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg)
 
+~[Figure of something **incredibly important**](http://placekitten.com.s3.amazonaws.com/homepage-samples/96/139.jpg)
+
 Images can be stored in the same directory as the document and they'll "just work"
 
 This is a paragraph of text which as some **bold**, _emphasied_ and `some inline code`
